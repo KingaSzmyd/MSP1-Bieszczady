@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colours */
+h2,
+#logo,
+#menu {
+    color: rgb(131, 170, 131)
+}
+
+/*--------------------------------------------Fonts */
+
+body {
+    font-family: "Exo"sans-serif;
+    color: #fafafa;
+}
+
+/*--------------------------------------------Logo */
+
+h2,
+#logo {
+
+    float: left;
+    font-size: 300%;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*--------------------------------------------Menu */
+
+#menu {
+    font-size: 150%;
+    font-family: Roboto;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+}
+
+#menu a:hover {
+    border-bottom: 0 solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+/*--------------------------------------------Image */
+
+#bieszczady-image {
+    height: 100%;
+    width: 100%;
+    background: url("https://i.pinimg.com/originals/f5/6c/6d/f56c6db3c8c82fd41977e17dc398df41.jpg") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#bieszczady-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fafafa;
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    padding-top: 140px;
+    padding-left: 20px;
+
+    top: 30px;
+    left: 150px;
+
+    position: absolute;
+
+}
+
+h3 {
+    color: #fafafa;
+    font-family: Roboto;
+    padding-top: 140px;
+    padding-left: 20px;
+}
