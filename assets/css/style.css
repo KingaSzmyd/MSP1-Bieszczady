@@ -1,38 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-/*--------------------------------------------Colours */
-h2,
-#logo,
-#menu {
-    color: rgb(131, 170, 131)
+/*--------------------------------------------Header */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-/*--------------------------------------------Fonts */
-
 body {
-    font-family: "Exo"sans-serif;
-    color: #fafafa;
+    font-family: Lato;
+    color: #777777;
 }
 
 /*--------------------------------------------Logo */
 
-h2,
-#logo {
-
-    float: left;
-    font-size: 300%;
-    font-family: Roboto;
+h2 {
+    font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #555555;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
 
 /*--------------------------------------------Menu */
-
 #menu {
-    font-size: 150%;
-    font-family: Roboto;
+    font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
 }
 
 #menu li {
@@ -42,69 +50,159 @@ h2,
 
 #menu a {
     text-decoration: none;
-    color: rgb(63, 62, 62);
+    color: inherit;
 }
 
 #menu a:hover {
-    border-bottom: 0 solid #777777;
+    border-bottom: 1px solid #777777;
 }
 
 .active {
     border-bottom: 1px solid #777777;
 }
 
-/*--------------------------------------------Image */
+/*--------------------------------------------Hero-image */
 
-#bieszczady-image {
+body,
+html {
     height: 100%;
-    width: 100%;
-    background: url("https://i.pinimg.com/originals/f5/6c/6d/f56c6db3c8c82fd41977e17dc398df41.jpg") no-repeat center center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
-#bieszczady-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
+.img-fluid {
+    overflow: auto;
+    max-width: 100%;
+    background-image: url("https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80") no repeat center center;
 }
 
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
+/*--------------------------------------------Text-centered */
 
-    to {
-        transform: scale(1.1);
-    }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-#cover-text,
-#cover-text h2 {
-    color: #fafafa;
-}
-
-#cover-text {
-    font-size: 100%;
-    font-family: Roboto;
+.centered {
+    font-size: 380%;
+    font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #fafafa;
 
-    padding-top: 140px;
-    padding-left: 20px;
+    width: 600px;
+    height: 200px;
 
-    top: 30px;
-    left: 150px;
+    padding-top: 100px;
+    padding-left: 100px;
+
+    bottom: 500px;
+    right: 300px;
 
     position: absolute;
+}
+
+.text-muted {
+    color: #fafafa;
+}
+
+/*--------------------------------------------Introduction */
+
+.introduction {
+    font-family: Oswald;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #555555;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 280%;
+}
+
+.introduction-text {
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #555555;
+}
+
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.bieszczady-mountains {
+    height: 600px;
+}
+
+/*--------------------------------------------Left-about and left-about-heading */
+
+.left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+
+.left-about-heading {
+    width: 50%;
+    float: right;
+    line-height: 50px;
+    clear: both;
+    margin-bottom: 50px;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #555555;
+}
+
+/*--------------------------------------------Right-about and right-about-heading */
+
+.right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.right-about-heading {
+    width: 50%;
+    float: left;
+    line-height: 50px;
+    clear: both;
+    margin-bottom: 50px;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #555555;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.img-thumbnail {
+    border: 1px solid white;
+    height: 30%;
+    width: 50%;
+}
+
+/*--------------------------------------------Footer */
+
+footer {
+    height: 150px;
+    position: absolute;
+}
+
+/*--------------------------------------------Social-links */
+
+.social-links {
+    text-align: center;
 
 }
 
-h3 {
-    color: #fafafa;
-    font-family: Roboto;
-    padding-top: 140px;
-    padding-left: 20px;
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }

@@ -3,41 +3,147 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <img url="assets/images/">
-    <title>Visit Bieszczady</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Love Running</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
         <a href="index.html">
-
+            <h2 id="logo">Visit Bieszczady</h2>
         </a>
-
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
                     <a href="#">Activities</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="active" href="index.html">Home</a>
                 </li>
+
             </ul>
         </nav>
+        <img src="https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80"
+            class="img-fluid" alt="Responsive image">
     </header>
-    <section id="bieszczady-outer">
-        <div id="bieszczady-image"></div>
-        <div id="cover-text">
-            <h2 id="logo">Welcome to Bieszczady</h2>
-            <h3>It's time to visit this beautiful area in south-east of Poland!</h3>
+    <div class="container">
+        <div class="centered">
+            <h1>Welcome to Bieszczady</h1>
+            <br>
+            <h3 class="text-muted">Discover the beauty of Poland!</h3>
         </div>
-    </section>
-    <footer></footer>
+    </div>
+    <br>
+    <section>
+        <section class="bieszczady-mountains">
+            <h2 class="introduction">Get to know the Bieszczady Mountains</h2>
+            <p class="introduction-text">Bieszczady Mountains is a part of Carpathian Mountain Range, situated at the
+                southeast part of Poland. This is the wildest part of the country.
+                The most beautiful part of the mountains is protected by the Bieszczady National Park
+                and belongs to the Eastern Carpathian UNESCO Biosphere Reserve.
+            </p>
+            <div class="left-about">
+                <div class="left-about-heading">
+
+                    <h2>
+                        <img src="https://images.unsplash.com/photo-1599766276982-7ba318f8cf78?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fGJpZXN6Y3phZHklMjBuYXRpb25hbCUyMHBhcmt8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="..." class="img-thumbnail">Bieszczady National Park</h2>
+                </div>
+                <hr>
+                <p>
+                    Is the third largest national park in Poland, located in Subcarpathian Voivodeship
+                    in the extreme southeast corner of the country, bordering Slovakia and Ukraine.
+                    Animal life is abundant with several species of endangered animals thriving in the area,
+                    among them brown bears, grey wolf, European wildcat, wild boar, European beavers,
+                    European otter, and European lynx as well as deer (such as moose)
+                    and European bison (over 500 live in the area).
+                </p>
+            </div>
+            <div class="left-about-heading">
+
+                <h2><img src="https://images.unsplash.com/photo-1564661392417-bb629e9c6519?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dGFybmljYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="..." class="img-thumbnail">Tarnica</h2>
+                <hr>
+                <p>
+                    Its height is 1,346 metres. It is one of the Polish Crown Peaks.
+                    The summit towers 500 metres above the Wołosatka Valley.
+                    It can be easily told apart from its neighbours by its distinctive shape.
+                    The mountain has two separate summits, one of 1,339 and one of 1,346 metres.
+                    The southern part is a steep rocky wall, while the other side consist of less steep rocky
+                    fields.
+                </p>
+            </div>
+
+            </div>
+            <div class="right-about">
+                <div class="right-about-heading">
+                    <h2>
+                        <img src="https://images.unsplash.com/photo-1597918048870-351010a82808?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c29saW5hfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                            alt="..." class="img-thumbnail">Solina</h2>
+                    <hr>
+                    <p>
+                        Lake Solina is an artificial lake in the Bieszczady Mountains region, more precisely in Lesko
+                        County of the Subcarpathian Voivodship of Poland.
+                        The lake was created in 1968 by the construction of the Solina Dam on the San River. It has an
+                        area of 22 square kilometres (8 sq mi)
+                        and contains 472,000,000 cubic metres (617,000,000 cu yd; 383,000 acre⋅ft) of water, making it
+                        Poland's largest artificial lake.
+                        It is the best known tourist attraction of the region to watersports enthusiasts. The lake's
+                        great depth, water clarity, and mountainous scenery
+                        makes it a very popular destination. The lake has been nicknamed the "Bieszczady Sea".
+                    </p>
+                </div>
+                <div class="right-about-heading">
+                    <h2>
+                        <img src="https://www.ciekawe-miejsca.net/pliki/fck/image/front.jpg" alt="..."
+                            class="img-thumbnail">Greek Orthodox Churches</h2>
+                    <hr>
+                    <p>
+                        Centuries-old Greek Orthodox churches are a true landmark of the Bieszczady Mountains,
+                        with the majority and most interesting located in the area of Ustrzyki Dolne.
+                        Most are located within a 4 kilometre radius from each other, so they can be visited not only by
+                        car,
+                        but also by bike or on foot. There are 3 main architectural styles of those churches, inspired
+                        by Lemko,
+                        Bojko and Ukrainian cultures, with most of the temples having a separate additional wooden
+                        belfry.
+                </div>
+            </div>
+        </section>
+        <br>
+        <footer>
+            <div class="social-links">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-square"></i>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
 </body>
 
 </html>
