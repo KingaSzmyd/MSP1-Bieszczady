@@ -69,7 +69,7 @@ html {
 }
 
 .img-fluid {
-    overflow: hidden;
+    overflow: clip;
     max-width: 100%;
     background-image: url("https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80") no repeat center center;
 }
@@ -119,8 +119,13 @@ html {
     position: absolute;
 }
 
+h1,
+h3 {
+    color: white;
+}
+
 .text-muted {
-    color: #fafafa;
+    color: white;
 }
 
 /*--------------------------------------------Introduction */
@@ -139,6 +144,9 @@ html {
     font-family: Oswald;
     letter-spacing: 2px;
     color: #555555;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
 }
 
 hr {
@@ -147,77 +155,72 @@ hr {
     margin: 5px 0;
 }
 
-.bieszczady-mountains {
-    height: 600px;
-}
-
 /*--------------------------------------------Left-about and left-about-heading */
-
-.left-about {
-    padding-top: 30px;
-    width: 33%;
+.column {
     float: left;
+    width: 50%;
 }
 
-
-.left-about-heading {
-    width: 50%;
-    float: right;
-    line-height: 50px;
+.row:after {
+    content: "";
+    display: table;
     clear: both;
-    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.row {
+    display: flex;
+    padding-top: 50px;
+}
+
+.column {
+    flex: 50%;
     font-family: Oswald;
     letter-spacing: 2px;
     color: #555555;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-/*--------------------------------------------Right-about and right-about-heading */
-
-.right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-.right-about-heading {
-    width: 50%;
+.img-text {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
     float: left;
-    line-height: 50px;
-    clear: both;
-    margin-bottom: 50px;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    color: #555555;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.img-thumbnail {
-    border: 1px solid white;
-    height: 30%;
-    width: 50%;
-
-}
-
-.img-thumbnail img {
+.zoom .img-text {
     transition: transform .5s ease;
 }
 
-.img-thumbnail img:hover {
+.zoom:hover .img-text {
     transform: scale(1.5);
 }
 
-/*--------------------------------------------Footer */
+.headings {
+    font-size: 190%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+    padding: 3px;
+}
 
+
+
+
+
+
+/*--------------------------------------------Footer */
 footer {
     height: 150px;
-    position: absolute;
 }
 
 /*--------------------------------------------Social-links */
-
 .social-links {
     text-align: center;
 
