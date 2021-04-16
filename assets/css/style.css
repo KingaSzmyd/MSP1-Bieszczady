@@ -69,8 +69,11 @@ html {
 }
 
 .img-fluid {
-    overflow: clip;
-    max-width: 100%;
+    display: grid;
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     background-image: url("https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80") no repeat center center;
 }
 
@@ -101,14 +104,15 @@ html {
 }
 
 .centered {
-    font-size: 380%;
+    font-size: 500%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fafafa;
+    text-align: center;
 
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
 
     padding-top: 100px;
     padding-left: 100px;
@@ -159,14 +163,30 @@ hr {
     margin: 5px 0;
 }
 
-/*-------------------------------------------- */
+/*--------------------------------------------Column and row*/
 .column {
     float: left;
     width: 50%;
+    flex: 50%;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #555555;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.column-2 {
+    float: right;
+    width: 50%;
+    flex: 50%;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #555555;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .row:after {
-    content: "";
     display: table;
     clear: both;
     padding-left: 10px;
@@ -175,15 +195,6 @@ hr {
 .row {
     display: flex;
     padding-top: 50px;
-}
-
-.column {
-    flex: 50%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    color: #555555;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .img-text {
@@ -331,13 +342,7 @@ footer {
 
 /*--------------------------------------------Row and logotyp */
 
-.row {
-    float: left;
-    width: 30%;
-    margin-left: 15%;
-    max-width: 260px;
-    min-width: 150px;
-}
+
 
 .fow a {
     text-align: center;
