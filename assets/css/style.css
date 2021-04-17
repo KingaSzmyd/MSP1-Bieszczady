@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Lato;
+    font-family: Oswald;
     color: #777777;
 }
 
@@ -29,7 +29,7 @@ h2 {
 
 /*--------------------------------------------Menu */
 #menu {
-    font-size: 110%;
+    font-size: 150%;
     list-style-type: none;
     letter-spacing: 4px;
     font-family: Oswald;
@@ -61,7 +61,7 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
-/*--------------------------------------------Hero-image */
+/*--------------------------------------------Img-fluid */
 
 body,
 html {
@@ -69,12 +69,16 @@ html {
 }
 
 .img-fluid {
-    display: grid;
-    min-width: 350px;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 650px;
     background-image: url("https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80") no repeat center center;
+    background: cover;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
 }
 
 .img-fluid-2 {
@@ -84,27 +88,27 @@ html {
 }
 
 .img-fluid-3 {
-    overflow: hidden;
-    max-width: 100%;
+    width: 100%;
+    height: 500px;
     background-image: url("https://images.unsplash.com/photo-1616244013240-227ec9abfefb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80") no repeat center center;
 }
 
-.img-fluid-4 {
-    overflow: hidden;
-    max-width: 100%;
+.img-4 {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
     background-image: url("https://images.unsplash.com/photo-1596555559098-8a80e0c98bbd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80") no repeat center center;
 }
 
-/*--------------------------------------------Text-centered */
+/*--------------------------------------------Jumbotron-fluid */
 
-.container {
+.jumbotron-fluid {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.centered {
-    font-size: 500%;
+.container {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -114,29 +118,20 @@ html {
     width: 800px;
     height: 300px;
 
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 100px;
 
-    bottom: 500px;
+    bottom: 400px;
     right: 300px;
 
     position: absolute;
 }
 
-h1,
-h3 {
-    color: white;
-}
-
-.text-muted {
-    color: white;
-}
-
-/*--------------------------------------------Introduction */
-
+/*--------------------------------------------Introduction, what-to-do, contact-us and see-gallery */
 .introduction,
 .what-to-do,
-.contact-us {
+.contact-us,
+.see-gallery {
     font-family: Oswald;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -148,7 +143,8 @@ h3 {
 
 .introduction-text,
 .text-about,
-.contact-about {
+.contact-about,
+.see-about {
     font-family: Oswald;
     letter-spacing: 2px;
     color: #555555;
@@ -157,14 +153,8 @@ h3 {
     text-align: center;
 }
 
-hr {
-    border-top: 1px solid #777777;
-    width: 100%;
-    margin: 5px 0;
-}
-
-/*--------------------------------------------Column and row*/
-.column {
+/*--------------------------------------------Column and row - home.html*/
+.column-left {
     float: left;
     width: 50%;
     flex: 50%;
@@ -175,7 +165,7 @@ hr {
     padding-right: 5%;
 }
 
-.column-2 {
+.column-right {
     float: right;
     width: 50%;
     flex: 50%;
@@ -204,6 +194,7 @@ hr {
     float: left;
     display: flex;
     flex-wrap: wrap;
+    line-height: 75px;
 }
 
 .zoom .img-text {
@@ -223,50 +214,15 @@ hr {
     letter-spacing: 4px;
     color: #555555;
     padding: 3px;
+    line-height: 75px;
 }
 
-
-
-
-
-
-/*--------------------------------------------Footer */
-footer {
-    height: 150px;
-}
-
-/*--------------------------------------------Social-links */
-.social-links {
-    text-align: center;
-}
-
-.social-links li {
-    display: inline;
-}
-
-.social-links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #777777;
-}
-
-/*--------------------------------------------Photo */
-
-.photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-    row-gap: 3px;
-}
-
-#photo img {
+/*--------------------------------------------Left-about, right-about and center-about - activities.html*/
+hr {
+    border-top: 1px solid #777777;
     width: 100%;
+    margin: 5px 0;
 }
-
-
-/*--------------------------------------------Left-about, right-about and center-about */
 
 .left-about {
     padding-top: 30px;
@@ -285,7 +241,7 @@ footer {
     margin: 0 auto;
 }
 
-/*--------------------------------------------Left-about-heading and .right-about-heading */
+/*--------------------------------------------Left-about-heading and .right-about-heading - activities.html */
 
 .left-about-heading {
     width: 50%;
@@ -309,51 +265,112 @@ footer {
     color: #555555;
 }
 
-.right-about-heading {
-    text-align: left;
-}
-
 .heading-icons {
-    text-align: right;
+    text-align: center;
 }
 
-.fas {
-    float: left;
-}
+/*--------------------------------------------Circle-container - activities.html */
 
-/*--------------------------------------------Circle-container */
+.center-about {
+    padding: 5%;
+}
 
 .circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 0;
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-}
-
-.circle-cover-bg {
-    background: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png') no-repeat center center;
-    height: 50%;
-    border-radius: 50%;
-}
-
-/*--------------------------------------------Row and logotyp */
-
-
-
-.fow a {
+    position: relative;
     text-align: center;
 }
 
-.logotyp {
-    width: 100%;
-    height: 180px;
+.circle-cover-bg {
+    background: url("https://images.unsplash.com/photo-1602333158618-dd71de539d3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxoaWtpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
-/*--------------------------------------------Email-form */
+/*--------------------------------------------Card and logotyp - activities.html */
+
+.card {
+    width: 10%;
+    margin-left: 15%;
+    border: none;
+    clear: both;
+    display: inline;
+}
+
+.card a {
+    text-align: center;
+}
+
+.logotype {
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+    padding: 5%;
+}
+
+/*--------------------------------------------Footer */
+footer {
+    height: 150px;
+}
+
+/*--------------------------------------------Social-links */
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+/*--------------------------------------------Photo - gallery.html */
+
+.photo {
+    border-radius: 4px;
+    width: 300px;
+    height: 200px;
+    margin: 30px 20px 30px 20px;
+}
+
+.photo-column {
+    display: inline;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.img-hover-zoom {
+    height: 100px;
+    overflow: hidden;
+    display: inline;
+}
+
+.img-hover-zoom .photo {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover .photo {
+    transform: scale(1.25);
+}
+
+/*--------------------------------------------Email, form-group and btn - contact.html */
+
+.email {
+    margin: 50px 200px 50px 200px;
+}
 
 .form-group {
     width: 100%;
@@ -361,19 +378,22 @@ footer {
     margin: 8px 0;
     box-sizing: border-box;
     font-family: Oswald;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #555555;
     float: center;
     padding-top: 10px;
 }
 
-.btn btn-primary {
+.btn {
     letter-spacing: 2px;
     color: #fafafa;
-    float: left;
-    padding: 12px 20px;
-    margin: 8px 0;
+    background-color: #2C3E50;
+    text-transform: uppercase;
+    font-family: Oswald;
     box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 10px 50% 30px 50%;
 }
 
-/*--------------------------------------------Map */
+/*--------------------------------------------Trial.html */
