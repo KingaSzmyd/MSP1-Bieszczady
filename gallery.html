@@ -17,25 +17,32 @@
 
 <body>
     <header>
-        <a href="home.html">
-            <h2 id="logo">Visit Bieszczady</h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="activities.html">Activities</a>
-                </li>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html">Visit Bieszczady</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+
         <img src="https://images.unsplash.com/photo-1616244013240-227ec9abfefb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80"
             class="img-3" alt="Responsive image">
         <div class="container">
