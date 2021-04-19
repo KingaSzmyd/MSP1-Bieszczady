@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 /*--------------------------------------------Header */
 
@@ -9,14 +9,14 @@
 }
 
 body {
-    font-family: Oswald;
+    font-family: Lato;
     color: #777777;
 }
 
 /*--------------------------------------------Logo */
 
 h2 {
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
@@ -32,7 +32,7 @@ h2 {
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 4px;
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
@@ -68,26 +68,19 @@ html {
     height: 100%;
 }
 
-.img-fluid {
+.img-1 {
     width: 100%;
-    height: 650px;
+    height: auto;
     background-image: url("https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80") no repeat center center;
-    background: cover;
 }
 
-@media only screen and (max-width: 480px) {
-    img {
-        width: 100%;
-    }
-}
-
-.img-fluid-2 {
-    overflow: hidden;
-    max-width: 100%;
+.img-2 {
+    width: 100%;
+    height: 500px;
     background-image: url("https://images.unsplash.com/photo-1617297581964-2f08aa825f76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80") no repeat center center;
 }
 
-.img-fluid-3 {
+.img-3 {
     width: 100%;
     height: 500px;
     background-image: url("https://images.unsplash.com/photo-1616244013240-227ec9abfefb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80") no repeat center center;
@@ -96,7 +89,6 @@ html {
 .img-4 {
     width: 100%;
     height: 500px;
-    padding-bottom: 20px;
     background-image: url("https://images.unsplash.com/photo-1596555559098-8a80e0c98bbd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80") no repeat center center;
 }
 
@@ -109,7 +101,7 @@ html {
 }
 
 .container {
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fafafa;
@@ -118,21 +110,22 @@ html {
     width: 800px;
     height: 300px;
 
-    padding-top: 200px;
+    padding-top: 300px;
     padding-left: 100px;
 
-    bottom: 400px;
+    bottom: 500px;
     right: 300px;
 
     position: absolute;
 }
 
 /*--------------------------------------------Introduction, what-to-do, contact-us and see-gallery */
+
 .introduction,
 .what-to-do,
 .contact-us,
 .see-gallery {
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #555555;
@@ -141,11 +134,13 @@ html {
     font-size: 280%;
 }
 
+/*--------------------------------------------Introduction-text, text-about, contact-about and see-about */
+
 .introduction-text,
 .text-about,
 .contact-about,
 .see-about {
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 2px;
     color: #555555;
     padding-left: 5%;
@@ -153,12 +148,13 @@ html {
     text-align: center;
 }
 
-/*--------------------------------------------Column and row - home.html*/
+/*--------------------------------------------Column: left and right, row and img-text - home.html*/
+
 .column-left {
     float: left;
     width: 50%;
     flex: 50%;
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 2px;
     color: #555555;
     padding-left: 5%;
@@ -169,7 +165,7 @@ html {
     float: right;
     width: 50%;
     flex: 50%;
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 2px;
     color: #555555;
     padding-left: 5%;
@@ -206,18 +202,24 @@ html {
 }
 
 .headings {
-    font-size: 190%;
+    font-size: 180%;
     list-style-type: none;
     letter-spacing: 4px;
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
     padding: 3px;
     line-height: 75px;
+    float: left;
+}
+
+.text-inf {
+    float: left;
 }
 
 /*--------------------------------------------Left-about, right-about and center-about - activities.html*/
+
 hr {
     border-top: 1px solid #777777;
     width: 100%;
@@ -249,7 +251,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 2px;
     color: #555555;
 }
@@ -260,7 +262,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    font-family: Oswald;
+    font-family: 'Oswald';
     letter-spacing: 2px;
     color: #555555;
 }
@@ -279,9 +281,6 @@ hr {
     width: 300px;
     height: 300px;
     padding: 0;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
@@ -289,38 +288,41 @@ hr {
 }
 
 .circle-cover-bg {
-    background: url("https://images.unsplash.com/photo-1602333158618-dd71de539d3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxoaWtpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center;
+    background: url("https://images.unsplash.com/photo-1566893702043-ee439a981a31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjA3fHxoaWtpbmd8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-/*--------------------------------------------Card and logotyp - activities.html */
+/*--------------------------------------------Card and logotype - activities.html */
 
 .card {
-    width: 10%;
-    margin-left: 15%;
-    border: none;
-    clear: both;
-    display: inline;
+    text-align: center;
+    border: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 30%;
 }
 
-.card a {
+.card li {
+    display: inline;
     text-align: center;
 }
 
-.logotype {
-    width: 100px;
-    height: 100px;
-    margin: 1%;
-    padding: 5%;
+.card img {
+    width: 230px;
+    height: 210px;
+    margin: 0;
+    padding: 3%;
 }
 
 /*--------------------------------------------Footer */
+
 footer {
     height: 150px;
 }
 
 /*--------------------------------------------Social-links */
+
 .social-links {
     text-align: center;
 }
@@ -377,11 +379,10 @@ footer {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    font-family: Oswald;
+    font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #555555;
-    float: center;
     padding-top: 10px;
 }
 
@@ -390,10 +391,8 @@ footer {
     color: #fafafa;
     background-color: #2C3E50;
     text-transform: uppercase;
-    font-family: Oswald;
+    font-family: 'Oswald';
     box-sizing: border-box;
     padding: 12px 20px;
     margin: 10px 50% 30px 50%;
 }
-
-/*--------------------------------------------Trial.html */
