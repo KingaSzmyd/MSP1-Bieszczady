@@ -77,19 +77,19 @@ html {
 .img-2 {
     width: 100%;
     height: 500px;
-    background-image: url("https://images.unsplash.com/photo-1617297581964-2f08aa825f76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80") no repeat center center;
+    background-image: url("../images/background-activities.jpg") no repeat center center;
 }
 
 .img-3 {
     width: 100%;
     height: 500px;
-    background-image: url("https://images.unsplash.com/photo-1616244013240-227ec9abfefb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80") no repeat center center;
+    background-image: url("../images/background-gallery.jpg") no repeat center center;
 }
 
 .img-4 {
     width: 100%;
     height: 500px;
-    background-image: url("https://images.unsplash.com/photo-1596555559098-8a80e0c98bbd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80") no repeat center center;
+    background-image: url("../images/background-contact.jpg") no repeat center center;
 }
 
 /*--------------------------------------------Jumbotron-fluid */
