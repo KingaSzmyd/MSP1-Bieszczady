@@ -114,6 +114,22 @@ html {
     position: relative;
 }
 
+.callout-activities-container {
+    height: 100vh;
+
+    background: url("../images/background-activities.jpg") no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .container-main {
     font-size: 250%;
     font-family: 'Oswald';
@@ -266,54 +282,20 @@ hr {
     margin: 5px 0;
 }
 
-.left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-.right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-.center-about {
-    width: 33%;
-    margin: 0 auto;
-    padding: 6%;
-}
-
 
 /*--------------------------------------------Left-about-heading and .right-about-heading - activities.html */
 
-.left-about-heading {
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    font-family: 'Oswald';
-    letter-spacing: 2px;
-    color: #555555;
-    width: 50%;
-}
-
-.right-about-heading {
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-    font-family: 'Oswald';
-    letter-spacing: 2px;
-    color: #555555;
-    width: 50%;
-}
 
 .heading-icons {
     text-align: center;
 }
 
 /*--------------------------------------------Circle-container - activities.html */
+
+.center-about {
+    width: 100%;
+
+}
 
 .circle-container {
     width: 300px;
@@ -323,6 +305,8 @@ hr {
     margin: 0 auto;
     position: relative;
     text-align: center;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 .circle-cover-bg {
@@ -347,8 +331,8 @@ hr {
 }
 
 .card img {
-    width: 230px;
-    height: 210px;
+    width: 210px;
+    height: 190px;
     margin: 0;
     padding: 3%;
 }
