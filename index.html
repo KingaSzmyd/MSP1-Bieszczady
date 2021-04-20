@@ -3,15 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <title>Visit Bieszczady</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -24,133 +21,161 @@
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand" href="index.html">Visit Bieszczady</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="index.html">Visit Bieszczady</a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="activities.html">Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <img src="https://images.unsplash.com/flagged/photo-1578582543430-475219807380?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1401&q=80"
-            class="img-1" alt="Responsive image">
-        <div class="container">
-            <div class="centered">
+        <div class="callout-container container-fluid">
+            <div class="jambotron text-center">
                 <h1>Welcome to Bieszczady</h1>
                 <br>
                 <p>Discover the beauty of Poland!</p>
             </div>
         </div>
     </header>
-    <section class="bieszczady-mountains">
-        <h2 class="introduction">What to see in the Bieszczady Mountains?</h2>
-        <p class="introduction-text">Bieszczady Mountains is a part of Carpathian Mountain Range, situated at the
-            south-east Poland. This is the wildest part of the country. <br>
-            The mountains are protected by the Bieszczady National Park and belongs to the Eastern Carpathian UNESCO
-            Biosphere Reserve.
-        </p>
-        <br>
-    </section>
-    <section>
-        <div class="row">
-            <div class="column-left">
-                <div class="zoom">
-                    <a target="_blank"
-                        href="https://images.unsplash.com/photo-1599766276982-7ba318f8cf78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpZXN6Y3phZHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                        <img src="https://images.unsplash.com/photo-1599766276982-7ba318f8cf78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpZXN6Y3phZHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                            class="img-text" alt="National-park">
-                    </a>
+
+    <!-- Attractions -->
+    <div class="container">
+        <section class="attractions">
+            <div class="container about-container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>What to see in the Bieszczady Mountains?</h1>
+                        <p class="lead">Bieszczady Mountains is a part of Carpathian Mountain Range, situated at the
+                            south-east Poland. <br> This is the wildest part of the country.
+                            The mountains are protected by the Bieszczady National Park and belongs to the Eastern
+                            Carpathian
+                            UNESCO
+                            Biosphere Reserve.
+                        </p>
+                    </div>
                 </div>
-                <h2 class="headings">Bieszczady National Park</h2>
-                <br>
-                <p class="text-inf">
-                    Is the third largest national park in Poland, bordering Slovakia and Ukraine.
-                    Is also the home for several species of endangered animals: brown bears, grey wolf, wild boar,
-                    European: wildcat, beavers, otter, lynx and deer (such as moose) and bison (over 500 live in the
-                    area).
-                </p>
-                <br>
-                <div class="zoom">
-                    <a target="_blank"
-                        href="https://images.unsplash.com/photo-1613756441838-3846b134396f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFybmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                        <img src="https://images.unsplash.com/photo-1613756441838-3846b134396f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFybmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                            class="img-text" alt="Tarnica">
-                    </a>
-                </div>
-                <h2 class="headings">Tarnica</h2>
-                <br>
-                <p class="text-inf">
-                    Its height is 1,346 m. It is one of the Polish Crown Peaks with a distinctive shape.
-                    The summit towers 500 m above the Wołosatka Valley.
-                    The mountain has two separate summits, one of 1,339 and one of 1,346 m. At the pick of Tarnica
-                    there is a cross built as a symbol of the christianity in Poland.
-                </p>
             </div>
-            <div class="column-right">
-                <div class="zoom">
-                    <a target="_blank"
-                        href="https://images.unsplash.com/photo-1470918602146-8f1116b28500?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c29saW5hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                        <img src="https://images.unsplash.com/photo-1470918602146-8f1116b28500?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c29saW5hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                            class="img-text" alt="Solina">
-                    </a>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="zoom">
+                        <a target="_blank"
+                            href="https://images.unsplash.com/photo-1599766276982-7ba318f8cf78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpZXN6Y3phZHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                            <img src="https://images.unsplash.com/photo-1599766276982-7ba318f8cf78?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGJpZXN6Y3phZHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                class="img-text" alt="National-park">
+                        </a>
+                    </div>
+                    <h2 class="heading">Bieszczady National Park</h2>
+                    <br>
+                    <p class="text-inf">
+                        Is the third largest national park in Poland, bordering Slovakia and Ukraine.
+                        Is also the home for several species of endangered animals: brown bears, grey
+                        wolf, wild boar,European: wildcat, beavers, otter, lynx and deer (such as moose)
+                        and bison (over 500 live in the area.
+                    </p>
                 </div>
-                <h2 class="headings">Solina</h2>
-                <br>
-                <p class="text-inf">Solina is an artificial lake in the Bieszczady Mountains in Lesko County. The lake
-                    was created in 1968. It is the largets artificial lake in Poland. The lake has been nicknamed the
-                    "Bieszczady Sea" andd it is best know from it's great depth, water clarity and mountainous
-                    scenery.
-                </p>
-                <div class="zoom">
-                    <a target="_blank"
-                        href="https://images.unsplash.com/photo-1508985307703-52d13b2b06b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNodXJjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
-                        <img src="https://images.unsplash.com/photo-1508985307703-52d13b2b06b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNodXJjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                            class="img-text" alt="Church">
-                    </a>
+                <div class="col-12 col-md-6">
+                    <div class="zoom">
+                        <a target="_blank"
+                            href="https://images.unsplash.com/photo-1613756441838-3846b134396f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFybmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                            <img src="https://images.unsplash.com/photo-1613756441838-3846b134396f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFybmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                class="img-text" alt="Tarnica">
+                        </a>
+                    </div>
+                    <h2 class="heading">Tarnica</h2>
+                    <br>
+                    <p class="text-inf">
+                        Its height is 1,346 m. It is one of the Polish Crown Peaks with a distinctive
+                        shape. The summit towers 500 m above the Wołosatka Valley.
+                        The mountain has two separate summits, one of 1,339 and one of 1,346 m. At the
+                        pick of Tarnica there is a cross built as a symbol of the christianity in
+                        Poland.
+                    </p>
                 </div>
-                <h2 class="headings">Greek Ortodox Churches</h2>
-                <br>
-                <p class="text-inf">Centuries-old Greek Orthodox churches are a true landmark of
-                    the Bieszczady Mountains. Majority of them is located in Ustrzyki Dolne.
-                    There are 3 main architectural styles of the churches: Lemko, Bojko and Ukrainian.
-                    Most of the them have a separate additional wooden belfry.
-                </p>
             </div>
-        </div>
-    </section>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="zoom">
+                        <a target="_blank"
+                            href="https://images.unsplash.com/photo-1470918602146-8f1116b28500?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c29saW5hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                            <img src="https://images.unsplash.com/photo-1470918602146-8f1116b28500?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c29saW5hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                class="img-text" alt="Solina">
+                        </a>
+                    </div>
+                    <h2 class="heading">Solina</h2>
+                    <br>
+                    <p class="text-inf">Solina is an artificial lake in the Bieszczady Mountains in
+                        Lesko County. The lake was created in 1968. It is the largets artificial
+                        lake in Poland. The lake has been nicknamed the "Bieszczady Sea" andd it is best know from
+                        it's great
+                        depth, water clarity and mountainous scenery.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="zoom">
+                        <a target="_blank"
+                            href="https://images.unsplash.com/photo-1508985307703-52d13b2b06b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNodXJjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                            <img src="https://images.unsplash.com/photo-1508985307703-52d13b2b06b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNodXJjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                class="img-text" alt="Church">
+                        </a>
+                    </div>
+                    <h2 class="heading">Greek Ortodox Churches</h2>
+                    <br>
+                    <p class="text-inf">Centuries-old Greek Orthodox churches are a true landmark of
+                        the Bieszczady Mountains. Majority of them is located in Ustrzyki Dolne.
+                        There are 3 main architectural styles of the churches: Lemko, Bojko and
+                        Ukrainian. Most of the them have a separate additional wooden belfry.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <footer>
-        <div class="social-links">
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a>
-                </li>
-                <li>
-                    <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-square"></i></a>
-                </li>
-            </ul>
+        <div class="row">
+            <div class="col-12">
+                <div class="social-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com" target="_blank"><i
+                                    class="fab fa-pinterest-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
