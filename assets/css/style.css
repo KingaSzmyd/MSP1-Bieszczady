@@ -130,6 +130,22 @@ html {
     position: relative;
 }
 
+.callout-contact-container {
+    height: 100vh;
+
+    background: url("../images/background-contact.jpg") no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .container-main {
     font-size: 250%;
     font-family: 'Oswald';
@@ -419,19 +435,7 @@ footer {
     margin: 10px 50% 30px 50%;
 }
 
-
-@media screen and (max-width: 1393px) {}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-    /* Styles */
-
+.map {
+    width: 100%;
+    text-align: center;
 }
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-    /* Styles */
-
-}
-
-@media screen and (max-width: 943px) {}
