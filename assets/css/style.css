@@ -130,6 +130,22 @@ html {
     position: relative;
 }
 
+.callout-gallery-container {
+    height: 100vh;
+
+    background: url("../images/background-gallery.jpg") no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .callout-contact-container {
     height: 100vh;
 
