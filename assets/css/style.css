@@ -70,31 +70,7 @@ h2 {
 
 /*--------------------------------------------Img-fluid */
 
-body,
-html {
-    height: 100%;
-}
 
-.img-2 {
-    width: 100%;
-    height: 500px;
-    background: url("../images/background-activities.jpg") center center;
-    background-repeat: no-repeat;
-}
-
-.img-3 {
-    width: 100%;
-    height: 500px;
-    background: url("../images/background-gallery.jpg") center center;
-    background-repeat: no-repeat;
-}
-
-.img-4 {
-    width: 100%;
-    height: 500px;
-    background: url("../images/background-contact.jpg") center center;
-    background-repeat: no-repeat;
-}
 
 /*--------------------------------------------Jumbotron-fluid */
 
@@ -162,25 +138,6 @@ html {
     position: relative;
 }
 
-.container-main {
-    font-size: 250%;
-    font-family: 'Oswald';
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #fafafa;
-    text-align: center;
-
-    width: 800px;
-    height: 300px;
-
-    padding-top: 500px;
-    padding-left: 100px;
-
-    bottom: 400px;
-    right: 300px;
-
-    position: sticky;
-}
 
 .jambotron {
     letter-spacing: 4px;
@@ -316,7 +273,9 @@ hr {
 
 
 /*--------------------------------------------Left-about-heading and .right-about-heading - activities.html */
-
+.heading {
+    text-decoration: underline;
+}
 
 .heading-icons {
     text-align: center;
