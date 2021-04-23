@@ -42,17 +42,17 @@ Website contains useful links to the local organisations, that can help with org
 
   ### Design
 
-    - #### Color Scheme:
+   - #### Color Scheme:
 
-    The two main colors used are white and gray.
+   The two main colors used are white and gray.
 
    - #### Typography:
 
-    The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald is a clean font used frequently in programming, so it is both attractive and appropriate.
+   The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald is a clean font used frequently in programming, so it is both attractive and appropriate.
 
    - #### Imagery:
 
-    Imagery is important. The large, background hero images are used to catch the user's attention. It also has a modern, energetic aesthetic.
+   Imagery is important. The large, background hero images are used to catch the user's attention. It also has a modern, energetic aesthetic.
 
   ### Wireframes
 
@@ -156,16 +156,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ### Making a Local Clone
 
-    1.	Log in to GitHub and locate the GitHub Repository
-    2.	Under the repository name, click "Clone or download".
-    3.	To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-    4.	Open Git Bash
-    5.	Change the current working directory to the location where you want the cloned directory to be made.
-    6.	Type git clone, and then paste the URL you copied in Step 3.
+    1. Log in to GitHub and locate the GitHub Repository
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type git clone, and then paste the URL you copied in Step 3.
 
     $ gh repo clone KingaSzmyd/MSP1-Bieszczady
 
-    7.	Press Enter. Your local clone will be created.
+    7. Press Enter. Your local clone will be created.
 
 ## Credits
 
