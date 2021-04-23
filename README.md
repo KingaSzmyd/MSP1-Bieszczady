@@ -82,9 +82,9 @@ Website contains useful links to the local organisations, that can help with org
 
   ### Languages Used
 
-    * HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-    * [CSS3](https://en.wikipedia.org/wiki/CSS)
+   * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
   ### Frameworks, Libraries & Programs Used
 
@@ -105,7 +105,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ### Testing User Stories from User Experience (UX) Section
 
-      - #### First Time Visitor Goals
+   - #### First Time Visitor Goals
       
    1.	As a First Time Visitor, I want to easily understand the main purpose of the site and find the information about the Bieszczady Mountains.  
    2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath   there is a Hero Image with Text and the information about the region and the places worth seeing.
@@ -116,7 +116,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    7. On the gallery.html page user can see different photos from the destination area.
    8. On the Contact Page, there is a contact form with send button and also the map with directions to the place. 
 
-    - #### Returning Visitor Goals
+   - #### Returning Visitor Goals
 
    1.	As a Returning Visitor, I want to find the actual information about the Bieszczady Mountains. 
    2.	As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
@@ -125,20 +125,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    5.	The footer contains links to the organizations Facebook, Twitter, Pinterest, YouTube and Instagram, where the users can find more information about the   subject.
    6.	Every link, after clicking on it, will be open up in a new tab to ensure the user can easily get back to the website.
  
-    - #### Frequent User Goals
+   - #### Frequent User Goals
 
    1. As a Frequent User, I want to check to see if there are any newly added information. 
    2. The user would already be comfortable with the website layout and can easily go through its navigation.
 
   ### Further Testing
 
-    * The Website was tested on Google Chrome and Safari browsers.
-    * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+   * The Website was tested on Google Chrome and Safari browsers.
+   * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
   ### Known Bugs
 
-    The Google Map was not responsive and was changing the width of the mobile page.
-    The bug was fixed by using the CSS code from [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
+   The Google Map was not responsive and was changing the width of the mobile page.
+   The bug was fixed by using the CSS code from [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
 ## Deployment
 
@@ -146,12 +146,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   The project was deployed to GitHub Pages using the following steps:
 
-    1.	Log in to GitHub and locate the [GitHub Repository](https://github.com).
-    2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    4.	Under "Source", click the dropdown called "None" and select "Master Branch".
-    5.	The page will automatically refresh.
-    6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com).
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page will automatically refresh.
+    6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 
   ### Making a Local Clone
@@ -163,16 +163,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     5.	Change the current working directory to the location where you want the cloned directory to be made.
     6.	Type git clone, and then paste the URL you copied in Step 3.
 
+    $ gh repo clone KingaSzmyd/MSP1-Bieszczady
 
     7.	Press Enter. Your local clone will be created.
-
-
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
@@ -185,13 +178,13 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
   ### Content
 
-    All content was written by the developer, but it’s based on the information from [Wikipedia](https://www.wikipedia.org)
+   All content was written by the developer, but it’s based on the information from [Wikipedia](https://www.wikipedia.org)
 
   ### Media
     
-    All Images were download from the website [Unsplash.com](https://unsplash.com/)Acknowledgements
+   All Images were download from the website [Unsplash.com](https://unsplash.com/)Acknowledgements
 
   ### Acknowledgements
   
-    My Mentor for helpful feedback.
+   My Mentor for helpful feedback.
 
