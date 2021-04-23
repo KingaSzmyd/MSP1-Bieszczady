@@ -339,3 +339,14 @@ footer {
     width: 100%;
     position: absolute;
 }
+
+/*--------------------------------------------Page 404.html */
+
+.page-404 {
+    letter-spacing: 4px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+    font-size: 150%; 
+}
