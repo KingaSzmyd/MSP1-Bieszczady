@@ -13,15 +13,6 @@ body {
     color: #777777;
 }
 
-/*--------------------------------------------Logo */
-
-h2 {
-    font-family: 'Oswald';
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #555555;
-}
-
 /*--------------------------------------------Navbar */
 
 .navbar {
@@ -68,11 +59,7 @@ h2 {
     width: 100%;
 }
 
-/*--------------------------------------------Img-fluid */
-
-
-
-/*--------------------------------------------Jumbotron-fluid */
+/*--------------------------------------------Callout-containers */
 
 .callout-container {
     height: 100vh;
@@ -138,6 +125,7 @@ h2 {
     position: relative;
 }
 
+/*--------------------------------------------Callout-containers */
 
 .jambotron {
     letter-spacing: 4px;
@@ -148,21 +136,12 @@ h2 {
     margin-bottom: 30px;
 }
 
-
-
-/*--------------------------------------------Introduction, what-to-do, contact-us and see-gallery */
-
-.introduction,
-.what-to-do,
-.contact-us,
-.see-gallery {
+/*--------------------------------------------Container - attractions */
+h2 {
     font-family: 'Oswald';
-    letter-spacing: 4px;
     text-transform: uppercase;
+    letter-spacing: 4px;
     color: #555555;
-    margin: 20px 0;
-    text-align: center;
-    font-size: 280%;
 }
 
 .about-container {
@@ -174,43 +153,7 @@ h2 {
     text-align: center;
 }
 
-/*--------------------------------------------Introduction-text, text-about, contact-about and see-about */
-
-.introduction-text,
-.text-about,
-.contact-about,
-.see-about {
-    font-family: 'Oswald';
-    letter-spacing: 2px;
-    color: #555555;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-}
-
-/*--------------------------------------------Column: left and right, row and img-text - home.html*/
-
-.left-container {
-    float: left;
-    width: 50%;
-    flex: 50%;
-    font-family: 'Oswald';
-    letter-spacing: 2px;
-    color: #555555;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.right-container {
-    float: right;
-    width: 50%;
-    flex: 50%;
-    font-family: 'Oswald';
-    letter-spacing: 2px;
-    color: #555555;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+/*--------------------------------------------Row - attractions and photos */
 
 .row:after {
     display: table;
@@ -253,6 +196,7 @@ h2 {
     padding: 3px;
     line-height: 75px;
     float: left;
+    text-decoration: underline;
 }
 
 .text-inf {
@@ -261,20 +205,6 @@ h2 {
     padding-top: 30px;
     padding-left: 0;
     margin: 0;
-}
-
-/*--------------------------------------------Left-about, right-about and center-about - activities.html*/
-
-hr {
-    border-top: 1px solid #777777;
-    width: 100%;
-    margin: 5px 0;
-}
-
-
-/*--------------------------------------------Left-about-heading and .right-about-heading - activities.html */
-.heading {
-    text-decoration: underline;
 }
 
 .heading-icons {
@@ -351,20 +281,13 @@ footer {
     color: #777777;
 }
 
-/*--------------------------------------------Photo - gallery.html */
+/*--------------------------------------------Photos - gallery.html */
 
 .photo {
     border-radius: 4px;
     width: 300px;
     height: 200px;
     margin: 30px 20px 30px 20px;
-}
-
-.photo-column {
-    display: inline;
-    clear: both;
-    width: 100%;
-    text-align: center;
 }
 
 .img-hover-zoom {
@@ -409,6 +332,8 @@ footer {
     padding: 12px 20px;
     margin: 10px 50% 30px 50%;
 }
+
+/*--------------------------------------------Map */
 
 .map {
     width: 100%;
