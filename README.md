@@ -82,7 +82,7 @@ Website contains useful links to the local organisations, that can help with org
 
   ### Languages Used
 
-   * HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
    * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    * All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
    * Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
    * Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
-    * Responsive Map was created by using tips from the website [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
+   * Responsive Map was created by using tips from the website [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
   ### Content
 
@@ -182,7 +182,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ### Media
     
-   All Images were download from the website [Unsplash.com](https://unsplash.com/)Acknowledgements
+   All Images were download from the website [Unsplash.com](https://unsplash.com/)
 
   ### Acknowledgements
   
