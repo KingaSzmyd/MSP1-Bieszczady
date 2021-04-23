@@ -22,7 +22,7 @@ Website contains useful links to the local organisations, that can help with org
 
 ## User Experience - UX
 
-- ### User stories
+  ### User stories
 
   - #### First Time Visitor Goals:
 
@@ -40,125 +40,126 @@ Website contains useful links to the local organisations, that can help with org
 
     1. As a Frequent User, I want to check to see if there are any newly added information or updated information about traveling to Bieszczady’s. I would like also to see the posts and comments from the other travelers. 
 
-- ### Design
+  ### Design
 
-  - #### Color Scheme:
+    - #### Color Scheme:
 
     The two main colors used are white and gray.
 
-  - #### Typography:
+   - #### Typography:
 
     The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald is a clean font used frequently in programming, so it is both attractive and appropriate.
 
-  - #### Imagery:
+   - #### Imagery:
 
     Imagery is important. The large, background hero images are used to catch the user's attention. It also has a modern, energetic aesthetic.
 
-* ### Wireframes
+  ### Wireframes
 
-•	Home Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/home.png)
+   • Home Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/home.png)
  
-•	Activities Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/activities.png)
+   • Activities Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/activities.png)
  
-•	Gallery Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/gallery.png)
+   • Gallery Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/gallery.png)
  
-•	Contact Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/contact.png) 
+   • Contact Page Wireframe - [View](https://github.com/KingaSzmyd/MSP1-Bieszczady/blob/master/assets/images/contact.png) 
 
-- ## Features
+## Features
 
-•	Responsive on all device sizes
+   •	Responsive on all device sizes
 
-•	Interactive elements, like: social media links, e-mail form, Send-button, google map, logotypes of the local organizations.
+   •	Interactive elements, like: social media links, e-mail form, Send-button, google map, logotypes of the local organizations.
 
-- ## Features Left to Implement
+ ## Features Left to Implement
 
-•	Another feature idea: Blog and platform to sharing experiences about vsiting the Bieszczady. 
-•	Newsletter with the news about the region and travel tips. 
+   Another feature idea: 
+   
+   * Blog and platform to sharing experiences about vsiting the Bieszczady. 
+ 
+   * Newsletter with the news about the region and travel tips. 
 
-- ## Technologies Used
+## Technologies Used
 
-- ### Languages Used
+  ### Languages Used
 
-•	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+    •	[HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-•	[CSS3](https://en.wikipedia.org/wiki/CSS)
+    •	[CSS3](https://en.wikipedia.org/wiki/CSS)
 
-- ### Frameworks, Libraries & Programs Used
+  ### Frameworks, Libraries & Programs Used
 
-1.	[Bootstrap 4.0.0](https://getbootstrap.com/docs/4.0/components/navbar/)
+    1.	[Bootstrap 4.0.0](https://getbootstrap.com/docs/4.0/components/navbar/)
 
-  Bootstrap was used to assist with the using of jambotron contact form and button. 
+    Bootstrap was used to assist with the using to style the webiste and make it responsive by using Bootstrap grid system and responsive elements like: form, button and images. 
   
-2.	[Google Fonts](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap)
+    2.	[Google Fonts](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap)
 
     Google fonts were used to import the Oswald and Lato font into the style.css file which is used on all pages throughout the project.
 
-3.	[Font Awesome](https://use.fontawesome.com/releases/v5.6.3/css/all.css)
+    3.	[Font Awesome](https://use.fontawesome.com/releases/v5.6.3/css/all.css)
 
-    Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    Font Awesome was used on all pages throughout the website to add icons placed in the footer and also at the activities.html like the additional explanation to the text. 
    
-4.	[Git](https://git-scm.com/)
+    4.	[Git](https://git-scm.com/)
 
     Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
     
-5.	[GitHub](https://github.com)
+    5.	[GitHub](https://github.com)
 
     GitHub is used to store the projects code after being pushed from Git.
     
-6.	[Uizard](https://uizard.io)
+    6.	[Uizard](https://uizard.io)
 
     Uizard was used to create the wireframes during the design process.
 
-- ## Testing
+## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-•	[W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/)
+  •	[W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/)
  
-•	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+  •	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-- ### Testing User Stories from User Experience (UX) Section
+  ### Testing User Stories from User Experience (UX) Section
 
-  - #### First Time Visitor Goals
+      - #### First Time Visitor Goals
+      
+        1.	As a First Time Visitor, I want to easily understand the main purpose of the site and find the information about the Bieszczady Mountains.  
+        2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath   there is a Hero Image with Text and the information about the region and the places worth seeing.
+        3. The main points are made under the hero image, which is the invitation to the website.
+        4.  The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what  the page they will end up at clearly.  
+        5.  At the bottom of every page in the footer there are the links to social media, where user can find more information about the Bieszczady Mountains. 
+        6.  On the activities.html page user can find the most popular activities in Bieszczady Mountains and also the links to some organizations, which can help with more travel tips.
+        7.  On the gallery.html page user can see different photos from the destination area.
+        8.  On the Contact Page, there is a contact form with send button and also the map with directions to the place. 
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and find the information about the Bieszczady Mountains. 
-      a.	Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath   there is a Hero Image with Text and the information about the region and the places worth seeing.
-      b.	The main points are made under with the hero image, which is the invitation to the website.
-  
-    2.	As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-      a.	The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what  the page they will end up at clearly.  
-      b.	At the bottom of every pages in the footer there are the links to social media, where user can find more information about the Bieszczady Mountains. 
-      c.	On the Activities Page user can find the most popular activities in Bieszczady Mountains and also the links to some organizations, which can help with more travel tips.
-      d.	On the Gallery Page user can see different photos from the describing area.
-      e.	On the Contact Page, there is a contact form with send button and also the map with directions to the place. 
+    - #### Returning Visitor Goals
 
-  - #### Returning Visitor Goals
+      1.	As a Returning Visitor, I want to find the actual information about the Bieszczady Mountains. 
+      2.	As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
+      3.	The navigation bar clearly highlights the contact.html page.
+      4.	The visitors can fill out the form on the page.
+      5.	The footer contains links to the organizations Facebook, Twitter, Pinterest, YouTube and Instagram, where the users can find more information about the   subject.
+      6.	Every link, after clicking on it, will be open up in a new tab to ensure the user can easily get back to the website.
+ 
+    - #### Frequent User Goals
 
-    1.	As a Returning Visitor, I want to find the actual information about the Bieszczady Mountains. 
-    2.	As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
-      a.	The navigation bar clearly highlights the Contact Page.
-      b.	Here they can fill out the form on the page.
-      c.	The footer contains links to the organizations Facebook, Twitter, Pinterest, YouTube and Instagram, where the users can find more information about the   subject.
-      d.	Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-  
-  - #### Frequent User Goals
+      1. As a Frequent User, I want to check to see if there are any newly added information. 
+      2. The user would already be comfortable with the website layout and can easily go through its navigation.
 
-    1. As a Frequent User, I want to check to see if there are any newly added information. 
-      a.	The user would already be comfortable with the website layout and can easily go through its navigation.
+  ### Further Testing
 
-- ### Further Testing
+    •	The Website was tested on Google Chrome and Safari browsers.
+    •	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
-•	The Website was tested on Google Chrome and Safari browsers.
-•	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-•	A large amount of testing was done to ensure that all pages were linking correctly.
+  ### Known Bugs
 
-- ### Known Bugs
+    The Google Map was not responsive and was changing the width of the mobile page.
+    The bug was fixed by using the CSS code from [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
-•	The email form on the contact.html does not display corectly at the mobile phone view. 
+## Deployment
 
-- ## Deployment
-
-- ### GitHub Pages
+  ### GitHub Pages
 
   The project was deployed to GitHub Pages using the following steps:
 
@@ -169,14 +170,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     5.	The page will automatically refresh.
     6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-- ### Forking the GitHub Repository
+  ### Forking the GitHub Repository
 
   By forking the GitHub Repository we make a copy of the original repository on my GitHub account to view and/or make changes without affecting the original repository by using the following steps:
     1.	Log in to GitHub and locate the [GitHub Repository](https://github.com)
     2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
     3.	You should now have a copy of the original repository in your GitHub account.
 
-- ### Making a Local Clone
+  ### Making a Local Clone
 
     1.	Log in to GitHub and locate the GitHub Repository
     2.	Under the repository name, click "Clone or download".
@@ -196,18 +197,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 > Unpacking objects: 100% (10/10), done.
 Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-- ## Credits
+## Credits
 
-  - ### Code
+  ### Code
 
-    •	All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
-    •	Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
-    •	Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
+    * All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
+    * Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
+    * Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
+    * Responsive Map was created by using tips from the website [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
-  - ### Content
+  ### Content
 
     •	All content was written by the developer, but it’s based on the information from [Wikipedia](https://www.wikipedia.org)
 
-  - ### Media
+  ### Media
     
-    •	All Images were download from the website [Unsplash.com](https://unsplash.com/)
+    •	All Images were download from the website [Unsplash.com](https://unsplash.com/)Acknowledgements
+
+  ### Acknowledgements
+  
+    My Mentor for helpful feedback.
+
