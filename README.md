@@ -153,12 +153,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     5.	The page will automatically refresh.
     6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
-  ### Forking the GitHub Repository
-
-  By forking the GitHub Repository we make a copy of the original repository on my GitHub account to view and/or make changes without affecting the original repository by using the following steps:
-    1.	Log in to GitHub and locate the [GitHub Repository](https://github.com)
-    2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-    3.	You should now have a copy of the original repository in your GitHub account.
 
   ### Making a Local Clone
 
@@ -184,9 +178,9 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
   ### Code
 
-    * All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
-    * Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
-    * Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
+   * All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
+   * Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
+   * Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
     * Responsive Map was created by using tips from the website [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
   ### Content
