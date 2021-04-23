@@ -103,46 +103,46 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  
   * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-  ### Testing User Stories from User Experience (UX) Section
+ ### Testing User Stories from User Experience (UX) Section
 
-   - #### First Time Visitor Goals
+  - #### First Time Visitor Goals
       
-   1.	As a First Time Visitor, I want to easily understand the main purpose of the site and find the information about the Bieszczady Mountains.  
-   2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath   there is a Hero Image with Text and the information about the region and the places worth seeing.
-   3. The main points are made under the hero image, which is the invitation to the website.
-   4. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what  the page they will end up at clearly.  
-   5. At the bottom of every page in the footer there are the links to social media, where user can find more information about the Bieszczady Mountains. 
-   6. On the activities.html page user can find the most popular activities in Bieszczady Mountains and also the links to some organizations, which can help with more travel tips.
-   7. On the gallery.html page user can see different photos from the destination area.
-   8. On the Contact Page, there is a contact form with send button and also the map with directions to the place. 
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and find the information about the Bieszczady Mountains.  
+    2. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath   there is a Hero Image with Text and the information about the region and the places worth seeing.
+    3. The main points are made under the hero image, which is the invitation to the website.
+    4. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what  the page they will end up at clearly.  
+    5. At the bottom of every page in the footer there are the links to social media, where user can find more information about the Bieszczady Mountains. 
+    6. On the activities.html page user can find the most popular activities in Bieszczady Mountains and also the links to some organizations, which can help with more travel tips.
+    7. On the gallery.html page user can see different photos from the destination area.
+    8. On the Contact Page, there is a contact form with send button and also the map with directions to the place. 
 
-   - #### Returning Visitor Goals
+  - #### Returning Visitor Goals
 
-   1.	As a Returning Visitor, I want to find the actual information about the Bieszczady Mountains. 
-   2.	As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
-   3.	The navigation bar clearly highlights the contact.html page.
-   4.	The visitors can fill out the form on the page.
-   5.	The footer contains links to the organizations Facebook, Twitter, Pinterest, YouTube and Instagram, where the users can find more information about the   subject.
-   6.	Every link, after clicking on it, will be open up in a new tab to ensure the user can easily get back to the website.
+    1.	As a Returning Visitor, I want to find the actual information about the Bieszczady Mountains. 
+    2.	As a Returning Visitor, I want to find the best way to get in contact with the organization with any questions I may have.
+    3.	The navigation bar clearly highlights the contact.html page.
+    4.	The visitors can fill out the form on the page.
+    5.	The footer contains links to the organizations Facebook, Twitter, Pinterest, YouTube and Instagram, where the users can find more information about the   subject.
+    6.	Every link, after clicking on it, will be open up in a new tab to ensure the user can easily get back to the website.
  
-   - #### Frequent User Goals
+  - #### Frequent User Goals
 
-   1. As a Frequent User, I want to check to see if there are any newly added information. 
-   2. The user would already be comfortable with the website layout and can easily go through its navigation.
+    1. As a Frequent User, I want to check to see if there are any newly added information. 
+    2. The user would already be comfortable with the website layout and can easily go through its navigation.
 
-  ### Further Testing
+ ### Further Testing
 
    * The Website was tested on Google Chrome and Safari browsers.
    * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 
-  ### Known Bugs
+ ### Known Bugs
 
    The Google Map was not responsive and was changing the width of the mobile page.
    The bug was fixed by using the CSS code from [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
 ## Deployment
 
-  ### GitHub Pages
+ ### GitHub Pages
 
   The project was deployed to GitHub Pages using the following steps:
 
@@ -154,7 +154,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 
-  ### Making a Local Clone
+ ### Making a Local Clone
 
     1. Log in to GitHub and locate the GitHub Repository
     2. Under the repository name, click "Clone or download".
@@ -169,22 +169,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Credits
 
-  ### Code
+ ### Code
 
    * All the images on the website are coming from [Unsplash.com](https://unsplash.com/)
    * Bootstrap Library used throughout the project – [Bootstrap](https://getbootstrap.com/docs/4.0/components/breadcrumb/#overview)
    * Projects made during course from the Code Institute were inspiration to that project: [Code Institute 1](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/index.html), [Code Institute 2](https://github.com/Code-Institute-Solutions/Love-Running-Solutions/blob/master/08_responsive_elements/03_responsive_main_image/assets/css/style.css), [Code Institute 3](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/css/style.css) and [Code Institute 4](https://github.com/Code-Institute-Solutions/Editor/blob/master/05-cleaning_it_all_up/challenge_solution/stream-one.html)
    * Responsive Map was created by using tips from the website [Blog.duda.co](https://blog.duda.co/responsive-google-maps-for-your-website)
 
-  ### Content
+ ### Content
 
    All content was written by the developer, but it’s based on the information from [Wikipedia](https://www.wikipedia.org)
 
-  ### Media
+ ### Media
     
    All Images were download from the website [Unsplash.com](https://unsplash.com/)
 
-  ### Acknowledgements
+ ### Acknowledgements
   
    My Mentor for helpful feedback.
 
