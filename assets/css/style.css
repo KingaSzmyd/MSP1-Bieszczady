@@ -128,7 +128,6 @@ body {
 /*--------------------------------------------Callout-containers */
 
 .jambotron {
-    letter-spacing: 4px;
     font-family: 'Oswald';
     letter-spacing: 4px;
     color: #fafafa;
@@ -306,20 +305,14 @@ footer {
 
 /*--------------------------------------------Email, form-group and btn - contact.html */
 
-.email {
-    margin: 50px 200px 50px 200px;
-}
-
 .form-group {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
     box-sizing: border-box;
     font-family: 'Oswald';
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #555555;
-    padding-top: 10px;
+    height: 75%;
+    background-color: #fafafa;
 }
 
 .btn {
@@ -329,13 +322,20 @@ footer {
     text-transform: uppercase;
     font-family: 'Oswald';
     box-sizing: border-box;
-    padding: 12px 20px;
-    margin: 10px 50% 30px 50%;
 }
 
 /*--------------------------------------------Map */
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 
-.map {
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 75%;
     width: 100%;
-    text-align: center;
+    position: absolute;
 }

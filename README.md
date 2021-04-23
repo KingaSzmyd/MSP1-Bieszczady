@@ -211,9 +211,3 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
   - ### Media
     
     •	All Images were download from the website [Unsplash.com](https://unsplash.com/)
-
-
-
-
-
-
